@@ -1,0 +1,11 @@
+diff -up Unicode-EastAsianWidth-1.33/Makefile.PL.orig Unicode-EastAsianWidth-1.33/Makefile.PL
+--- Unicode-EastAsianWidth-1.33/Makefile.PL.orig	2018-07-17 14:40:11.319718524 +0200
++++ Unicode-EastAsianWidth-1.33/Makefile.PL	2018-07-17 14:40:24.625637761 +0200
+@@ -1,6 +1,6 @@
+ #!/usr/bin/perl
+ use strict;
+-use inc::Module::Package 'Au:dry 1';
++use inc::Module::Package;
+ 
+ my $DefaultVersion  = 'v5.0.0';
+ my $DefaultDate     = '2006-02-15';
